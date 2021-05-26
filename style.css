@@ -63,8 +63,9 @@ body{
 }
 
 .social .icons {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
     padding: 50px 0;
 }
 
